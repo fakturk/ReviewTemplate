@@ -4,10 +4,10 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: "4rem"
-  color:
-    primary: "purple"  # Main brand color
-    dark: false        # Light mode by default
+  spacing: "6rem"
+ # color:
+  #  primary: "purple"  # Main brand color
+   # dark: false        # Light mode by default
 
 sections:
   # ========== HERO SECTION ==========
