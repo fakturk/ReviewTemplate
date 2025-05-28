@@ -6,18 +6,18 @@
 # Appearance
 appearance:
   mode: light
-  color: indigo
+  color: purple
 
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Organisation
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    org_name: "ReviewTemplate"
+    description: "Beautiful Canva templates for book reviewers, bloggers, and influencers"
+    twitter: 'reviewtemplate'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-XDCEQNV7Y1'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -34,22 +34,45 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "ReviewTemplate"
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     button:
       enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
+      text: "Shop Now"
+      url: "https://reviewtemplate.gumroad.com/"
     show_search: true
     show_theme_chooser: true
 
-# Site footer
+# Site Footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: "© {year} ReviewTemplate. All rights reserved."
+  links:
+    - name: "Privacy Policy"
+      url: "/privacy"
+    - name: "Terms"
+      url: "/terms"
+    - name: "Contact"
+      url: "/contact"
 
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+
+# Additional Important Settings
+privacy:
+  cookie_banner:
+    enable: true
+    content: "We use cookies for analytics. [Learn more](/privacy/)"
+  google:
+    analytics: true  # Required for GA4
+
+services:
+  email: "hello@reviewtemplate.com"
+  social:
+    - icon: "instagram"
+      url: "https://instagram.com/reviewtemplate"
+    - icon: "twitter"
+      url: "https://twitter.com/reviewtemplate"
