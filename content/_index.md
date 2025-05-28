@@ -1,3 +1,4 @@
+---
 title: 'Professional Book Review Templates'
 date: 2023-10-24
 type: landing
@@ -107,3 +108,4 @@ sections:
     design:
       card:
         css_class: "bg-gradient-to-r from-purple-600 to-pink-500"
+---
