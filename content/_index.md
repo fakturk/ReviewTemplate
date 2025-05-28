@@ -73,7 +73,7 @@ sections:
           text: "APA Literature Reviews (4.4K searches)"
         - icon: briefcase
           text: "Business Review Templates (High CPC)"
-      image: "coffee.jpg" #"upcoming-templates.png"
+      image: "coffee.jpg"
       button:
         text: "Request Early Access"
         url: "#newsletter"
@@ -88,7 +88,7 @@ sections:
       items:
         - name: "TheBookishDragon"
           role: "Bookstagrammer (50K followers)"
-          image: "testimonial1.jpg"
+          image: "testimonial-1.jpg"
           text: "My engagement doubled with these templates - worth every penny!"
         - name: "LitReviewBlog"
           role: "Book Blogger"
