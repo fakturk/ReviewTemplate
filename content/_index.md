@@ -28,8 +28,9 @@ sections:
     design:
       background:
         color: "primary"  # Uses your primary purple
-    #    image:
-          filename: "book-hero-bg.jpg"  # Add textured background
+        image:
+         # filename: "book-hero-bg.jpg"  # Add textured background
+          filename: coffe.jpg
           filters:
             brightness: 0.7
       css_class: "text-center"
