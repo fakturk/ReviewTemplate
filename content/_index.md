@@ -30,7 +30,7 @@ sections:
         color: "primary"  # Uses your primary purple
         image:
          # filename: "book-hero-bg.jpg"  # Add textured background
-          filename: coffee.jpg
+          filename: book-hero-bg.jpg
           filters:
             brightness: 0.7
       css_class: "text-center"
