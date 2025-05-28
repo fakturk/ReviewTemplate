@@ -61,26 +61,6 @@ sections:
       columns: "3"  # 3-column grid
       card_style: "hover:shadow-lg"  # Lift on hover
 
-  # ========== COMING SOON ==========
-  - block: cta-image-paragraph
-    content:
-      title: "More Templates Coming Soon!"
-      text: "Based on your most requested categories:"
-      items:
-        - icon: chart-line
-          text: "Performance Reviews (8.1K searches/mo)"
-        - icon: graduation-cap
-          text: "APA Literature Reviews (4.4K searches)"
-        - icon: briefcase
-          text: "Business Review Templates (High CPC)"
-    image: build-website.png
-    button:
-        text: "Request Early Access"
-        url: "#newsletter"
-    design:
-      background:
-        color: "gray-100"
-
   # ========== TESTIMONIALS ==========
   - block: testimonials
     content:
