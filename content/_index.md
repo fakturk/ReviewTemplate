@@ -73,7 +73,8 @@ sections:
           text: "APA Literature Reviews (4.4K searches)"
         - icon: briefcase
           text: "Business Review Templates (High CPC)"
-      button:
+    image: "logo.svg"
+    button:
         text: "Request Early Access"
         url: "#newsletter"
     design:
