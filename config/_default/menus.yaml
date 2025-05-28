@@ -1,20 +1,47 @@
 # Navigation Links
-#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
-#   The `weight` parameter defines the order that the links will appear in.
+# Documentation: https://docs.hugoblox.com/content/menus/
 
 main:
-  - name: Home
-    url: /#top
+  - name: Templates
+    url: /templates
     weight: 10
-  - name: Features
-    url: /#features
+
+  - name: Genres
+    url: /#genres  # Links to features section
     weight: 20
-  - name: Solutions
-    url: /#solutions
+
+  - name: Testimonials
+    url: /#testimonials
     weight: 30
+
   - name: Resources
     weight: 40
     hasChildren: true
+
   - parent: Resources
     name: Blog
-    url: blog/
+    url: /blog/
+    weight: 10
+
+  - parent: Resources
+    name: Free Samples
+    url: /freebies/
+    weight: 20
+
+  - parent: Resources
+    name: Tutorials
+    url: /tutorials/
+    weight: 30
+
+footer:
+  - name: Privacy Policy
+    url: /privacy/
+    weight: 10
+
+  - name: Terms
+    url: /terms/
+    weight: 20
+
+  - name: Contact
+    url: /contact/
+    weight: 30
