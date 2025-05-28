@@ -28,7 +28,7 @@ sections:
     design:
       background:
         color: "primary"  # Uses your primary purple
-        image:
+    #    image:
           filename: "book-hero-bg.jpg"  # Add textured background
           filters:
             brightness: 0.7
