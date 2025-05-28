@@ -5,8 +5,8 @@ type: landing
 
 design:
   spacing: "6rem"
- # color:
-  #  primary: "purple"  # Main brand color
+  color:
+    primary: "purple"  # Main brand color
    # dark: false        # Light mode by default
 
 sections:
@@ -36,7 +36,13 @@ sections:
             contrast: 1.2
             saturation: 0.8
             blur: 2
-      css_class: "text-center"
+      css_class:
+        text-center
+        [background:rgba(0,0,0,0.3)]
+        dark:[background:rgba(0,0,0,0.5)]
+        px-8 py-4 rounded-xl
+        [text-shadow:_0_2px_4px_rgba(0,0,0,0.7)]
+        dark:[text-shadow:none]
 
   # ========== GENRE SHOWCASE ==========
   - block: features
