@@ -32,7 +32,10 @@ sections:
          # filename: "book-hero-bg.jpg"  # Add textured background
           filename: book-hero-bg.jpg
           filters:
-            brightness: 0.7
+            brightness: 0.5
+            contrast: 1.2
+            saturation: 0.8
+            blur: 2
       css_class: "text-center"
 
   # ========== GENRE SHOWCASE ==========
